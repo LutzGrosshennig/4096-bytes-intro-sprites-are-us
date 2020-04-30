@@ -1,5 +1,8 @@
 # 4k-intro-sprites-are-us
-This is a litte (only 4KB) intro I wrote in 2004. It was an attempt to showcase that it is quite possible to generate a tiny executable that actually does something (3d graphics and audio) using a high level language such as C/CPP.
+
+This is a litte (only 4KB) intro I wrote back in 2004. It was an attempt to showcase that it is quite possible to generate a tiny executable that actually does something (3d graphics and audio) using a high level language such as C/CPP.
+
+Here is a link to a YouTube video of the intro.
 
 [![Preview](https://img.youtube.com/vi/bIwQHldMUBk/0.jpg)](https://youtu.be/bIwQHldMUBk)
 
@@ -11,12 +14,12 @@ SpritesAreUs features 100.000 sprites each colored using a pseudo random number 
 
 To reach the goal of 4096 the PE Executable is packed into an old faschioned .com executable because the header is much smaller (the smallest PE header has 512 bytes w/o payload).
 
-The pseudo random numbers are generated using the realtime stamp counter of the CPU.
+The pseudo random numbers are generated using the realtime stamp counter (TSC) of the CPU.
 
-Bear in mind that a small size of the executable was the prime goal of this project. To achieve this all error checks and memory freeing operations have been diliberatly removed.
+Bear in mind that a small size of the executable was the prime goal of this project. To achieve this all error checks and memory freeing operations have been diliberatly removed. So do NOT take this as a example of CleanCoding, it is deliberatly NOT!
 
-The youtube video was heavly compressed by youtube and runs only at 30 FPS. On decent hardware it easly runs at 60 FPS.
+The youtube video is heavily compressed by youtube and runs only at 30 FPS. The intro itself runs at 60 FPS on decent hardware.
 
-You also need a 32 bit Windows system such as Windows XP (the target OS) because .com files are no longer supported in 64 Bit operating systems. 
+You also need a 32 bit Windows system such as Windows XP (the orginal target OS) because .com files are no longer supported in 64 Bit operating systems. 
 
-It appears to run fine in VMs with 3D acceleration enabled.
+It appears to run fine in a XP VMs with 3D acceleration enabled.
