@@ -23,3 +23,6 @@ The youtube video is heavily compressed by youtube and runs only at 30 FPS. The 
 You also need a 32 bit Windows system such as Windows XP (the orginal target OS) because .com files are no longer supported in 64 Bit operating systems. 
 
 It appears to run fine in a XP VMs with 3D acceleration enabled.
+
+#Building
+The project was build using Visual Studio 6 and the DirectX9-SDK on an WindowsXP system. There is a post build step to convert and compress the .exe into an packed .com executable.
