@@ -2,9 +2,9 @@
 
 This is a litte (only 4KB) intro I wrote back in 2004. It was an attempt to showcase that it is quite possible to generate a tiny executable that actually does something (3d graphics and audio) using a high level language such as C/CPP.
 
-Here is a link to a YouTube video of the intro.
+Here is a link to a YouTube video of the intro. The video shows heavy compression artifacts and only runs at 30 FPS, the intro itself easily hits 60 FPS on decent 2004 hardware.
 
-[![Preview](https://img.youtube.com/vi/bIwQHldMUBk/0.jpg)](https://youtu.be/bIwQHldMUBk)
+[![](http://img.youtube.com/vi/bIwQHldMUBk/0.jpg)](http://www.youtube.com/watch?v=bIwQHldMUBk "")
 
 It consists of 100.000 circular sprites drawn using DirectX 9 that are alpha blended together. Of course its eats up lots of bandwidth :-D
 
@@ -24,5 +24,5 @@ You also need a 32 bit Windows system such as Windows XP (the orginal target OS)
 
 It appears to run fine in a XP VMs with 3D acceleration enabled.
 
-#Building
+# Building
 The project was build using Visual Studio 6 and the DirectX9-SDK on an WindowsXP system. There is a post build step to convert and compress the .exe into an packed .com executable.
