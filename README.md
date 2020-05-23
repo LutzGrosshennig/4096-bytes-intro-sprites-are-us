@@ -25,4 +25,11 @@ You also need a 32 bit Windows system such as Windows XP (the orginal target OS)
 It appears to run fine in a XP VMs with 3D acceleration enabled.
 
 # Building
-The project was build using Visual Studio 6 and the DirectX9-SDK on an WindowsXP system. There is a post build step to convert and compress the .exe into an packed .com executable.
+The project was build using Visual Studio 6 and the DirectX9-SDK on an WindowsXP system. 
+In order to build the executable you need to set up two things. 
+* Add the DX9 include and lib paths to VS6 
+* Add the postbuild.bat as an postbuild step.
+
+Should build fine then. A side note: The vertex processing is set up for hardware vertex processing so this wont run on GPU that dont have that (GMA-3150 for example)
+
+There is a post build step to convert and compress the .exe into an packed .com executable.
