@@ -33,3 +33,7 @@ In order to build the executable you need to set up two things.
 Should build fine then. A side note: The vertex processing is set up for hardware vertex processing so this wont run on GPU that dont have that (GMA-3150 for example)
 
 There is a post build step to convert and compress the .exe into an packed .com executable.
+
+# Release
+
+An compiled and packed to less than 4KB executable can be found in the "Releases" menu. 
