@@ -2,14 +2,14 @@
 
 This is a little (only 4096 bytes) intro I wrote back in 2004. It was an attempt to showcase that it is quite possible to generate a tiny executable that actually does something (3d graphics and audio) using a high level language such as C/CPP.
 
-Here is a link to a YouTube video of the intro. The video shows heavy compression artifacts and only runs at 30 FPS, the intro itself easily hits 60 FPS on decent 2004 hardware.
+Here is a link to a YouTube video of the intro. The video capture shows heavy compression artifacts and only runs at 30 FPS, the intro itself easily hits 60 FPS on decent 2004 hardware.
 
 [![](http://img.youtube.com/vi/bIwQHldMUBk/0.jpg)](http://www.youtube.com/watch?v=bIwQHldMUBk "")
 
 "Sprites Are Us" features 100.000 3D sprites each colored using a pseudo random number drawn using DirectX 9 and includes a public domain MIDI soundtrack (details in the file mucke.h). The sprites are animated in differend animation patterns and morph into an starfield at the end. 
 
 The original intro contained a different MIDI track but due to copyright restrictions I had to replace it with this public domain track. 
-Unfortunatly its harder than you think  to find rolalty free midi music... (Yes there are lots of sites that offer free midi files but there are still subject to copyright.
+Unfortunatly it is hard to find an royalty free midi track... (Yes there are lots of sites that offer 'free' midi files but there are still subject to copyright and therefore only free to use for personal usage). In order to get an royalty free midi track to need to fall back to public domain tracks and these are composed prior to the 20th century.
 
 # Trivia
 To reach the goal of 4096 bytes the PE executable is packed into an old faschioned **.com** executable because the header is much smaller (the smallest PE header has 512 bytes w/o payload).
