@@ -4,7 +4,7 @@ This is a little (only 4096 bytes) intro I wrote back in 2004. It was an attempt
 
 Here is a link to a YouTube video of the intro. The video capture shows heavy compression artifacts and only runs at 30 FPS, the intro itself easily hits 60 FPS on decent 2004 hardware.
 
-[![](http://img.youtube.com/vi/bIwQHldMUBk/0.jpg)](http://www.youtube.com/watch?v=bIwQHldMUBk "")
+https://user-images.githubusercontent.com/29707648/221999745-6d4a007e-bffc-45be-bc10-1077ad7c9ae1.mp4
 
 "Sprites Are Us" features 100.000 3D sprites each colored using a pseudo random number drawn using DirectX 9 and includes a public domain MIDI soundtrack (details in the file mucke.h). The sprites are animated in differend animation patterns and morph into an starfield at the end. 
 
